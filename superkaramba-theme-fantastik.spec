@@ -3,13 +3,13 @@
 Summary:	superkaramba - Fantastik theme
 Summary(pl):	superkaramba - motyw Fantastik
 Name:		superkaramba-theme-%{theme}
-Version:	1.4
-Release:	0.1
+Version:	1.5
+Release:	1
 License:	GPL
 Group:		Themes
-Source0:	http://kde-look.org/content/files/17775-fantastik-%{version}.tar.gz
+Source0:	http://kde-look.org/content/files/17775-fantastik-%{version}.tar.bz2
+# Source0-md5:	26d9a297f32e07e7f9a660cb87afe7db
 Patch0:		fantastik.theme.patch
-# Source0-md5:	91d98821158d6b51b18c043017f32b11
 URL:		http://www.kde-look.org/content/show.php?content=17775
 Requires:	superkaramba
 BuildArch:	noarch
