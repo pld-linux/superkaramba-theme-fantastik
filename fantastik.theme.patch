@@ -1,13 +1,13 @@
---- fantastik.theme.old	2005-01-22 14:43:52.550196552 +0100
-+++ /fantastik-1.4/fantastik.theme	2005-01-22 14:47:26.188718560 +0100
+--- /fantastik-1.5/fantastik.theme.old	2005-02-07 22:34:40.037128568 +0100
++++ /fantastik-1.5/fantastik.theme	2005-02-07 22:36:47.855697192 +0100
 @@ -43,8 +43,8 @@
- text x=190 y=140 sensor=network device="ppp0" format="%out kB/s" align=right color=255,0,0 fontsize=9 font="Tahoma" interval=250
+ text x=192 y=140 sensor=network device="ppp0" format="%out kB/s" align=right color=255,0,0 fontsize=9 font="Tahoma" interval=250
  
  # Mail
 -clickarea x=15 y=162 w=32 h=32 onclick="thunderbird"
--text x=54 y=170 sensor=program program="/home/aivs/fantastik-1.2/programs/mails_pop3.pl pop.server.com login password" line=1 color=60,60,60 fontsize=10 font="Tahoma" interval=18000
+-text x=54 y=170 sensor=program program="/home/aivs/fantastik-1.4/programs/mails_pop3.pl pop.yandex.ru login password" line=1 color=60,60,60 fontsize=10 font="Tahoma" interval=18000
 +clickarea x=15 y=162 w=32 h=32 onclick="kmail"
-+text x=54 y=170 sensor=program program="/usr/share/themes/superkaramba/fantastik/programs/mails_pop3.pl pop.server.com login password" line=1 color=60,60,60 fontsize=10 font="Tahoma" interval=18000
++text x=54 y=170 sensor=program program="usr/share/themes/superkaramba/fantastik/programs/mails_pop3.pl pop.server.com login password" line=1 color=60,60,60 fontsize=10 font="Tahoma" interval=18000
   interval=18000
   
  #Time
