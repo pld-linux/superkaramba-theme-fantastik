@@ -26,7 +26,6 @@ Fantastik theme for superkaramba. Features:
 This theme based on theme by Chip2003 
 http://kde-look.org/content/show.php?content=6977 
 Screenshot of this theme:
-http://www.kde-look.org/content/preview.php?preview=1&id=17775&file1=17775-1.png&file2=&file3=&name=fantastik
 
 %description -l pl
 Motyw Fantastik dla superkaramby. Wy¶wietlane informacje: 
@@ -39,7 +38,6 @@ Motyw Fantastik dla superkaramby. Wy¶wietlane informacje:
 Ten motyw jest bazowanym na motywie zrobionym przez Chip2003
 http://kde-look.org/content/show.php?content=6977
 Zrzut ekranu tego motywu:
-http://www.kde-look.org/content/preview.php?preview=1&id=17775&file1=17775-1.png&file2=&file3=&name=fantastik
 
 %prep
 %setup -q -c
@@ -59,8 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %dir %{_datadir}/themes/superkaramba/fantastik
-%{_datadir}/themes/superkaramba/fantastik/*.theme
-%dir %{_datadir}/themes/superkaramba/fantastik/image
-%{_datadir}/themes/superkaramba/fantastik/image/*.png
-%dir %{_datadir}/themes/superkaramba/fantastik/programs
-%{_datadir}/themes/superkaramba/fantastik/programs/*.pl
+%{_datadir}/themes/superkaramba/fantastik/
