@@ -35,6 +35,10 @@ Motyw Fantastik dla superkaramby. Wy¶wietlane informacje:
 3) Monitor wykorzystania dysku 
 4) Monitor pobierania/wysy³ania interfejsu sieciowego 
 5) Monitor poczty pop3 6) Data i uptime
+Ten motyw jest bazowanym na motywie zrobionym przez Chip2003
+http://kde-look.org/content/show.php?content=6977
+Zrzut ekranu tego motywu:
+http://www.kde-look.org/content/preview.php?preview=1&id=17775&file1=17775-1.png&file2=&file3=&name=fantastik
 
 %prep
 %setup -q -c
