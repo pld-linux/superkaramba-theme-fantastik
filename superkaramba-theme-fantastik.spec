@@ -34,7 +34,8 @@ Motyw Fantastik dla superkaramby. Wy¶wietlane informacje:
 2) Monitor wykorzystania pamiêci 
 3) Monitor wykorzystania dysku 
 4) Monitor pobierania/wysy³ania interfejsu sieciowego 
-5) Monitor poczty pop3 6) Data i uptime
+5) Monitor poczty pop3
+6) Data i uptime
 Ten motyw jest bazowanym na motywie zrobionym przez Chip2003
 http://kde-look.org/content/show.php?content=6977
 Zrzut ekranu tego motywu:
@@ -46,9 +47,8 @@ http://www.kde-look.org/content/preview.php?preview=1&id=17775&file1=17775-1.png
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/fantastik
-install -d $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/fantastik/image/
-install -d $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/fantastik/programs/
+install -d $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/fantastik/{image,programs}
+
 install fantastik-%{version}/image/*.png $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/fantastik/image
 install fantastik-%{version}/programs/*.pl $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/fantastik/programs
 install fantastik-%{version}/*.theme $RPM_BUILD_ROOT%{_datadir}/themes/superkaramba/fantastik
@@ -59,7 +59,8 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %dir %{_datadir}/themes/superkaramba/fantastik
-%dir %{_datadir}/themes/superkaramba/fantastik/image/
-%{_datadir}/themes/superkaramba/fantastik/image/*.png
 %{_datadir}/themes/superkaramba/fantastik/*.theme
+%dir %{_datadir}/themes/superkaramba/fantastik/image
+%{_datadir}/themes/superkaramba/fantastik/image/*.png
+%dir %{_datadir}/themes/superkaramba/fantastik/programs
 %{_datadir}/themes/superkaramba/fantastik/programs/*.pl
