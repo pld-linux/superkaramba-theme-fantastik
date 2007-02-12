@@ -1,7 +1,7 @@
 %define		theme	fantastik
 
 Summary:	superkaramba - Fantastik theme
-Summary(pl.UTF-8):   superkaramba - motyw Fantastik
+Summary(pl.UTF-8):	superkaramba - motyw Fantastik
 Name:		superkaramba-theme-%{theme}
 Version:	2.0
 Release:	1
