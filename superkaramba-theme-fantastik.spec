@@ -1,7 +1,7 @@
 %define		theme	fantastik
 
 Summary:	superkaramba - Fantastik theme
-Summary(pl):	superkaramba - motyw Fantastik
+Summary(pl.UTF-8):   superkaramba - motyw Fantastik
 Name:		superkaramba-theme-%{theme}
 Version:	2.0
 Release:	1
@@ -27,12 +27,12 @@ This theme based on theme by Chip2003
 http://kde-look.org/content/show.php?content=6977 
 Screenshot of this theme:
 
-%description -l pl
-Motyw Fantastik dla superkaramby. Wy¶wietlane informacje: 
-1) Monitor obci±¿enia CPU 
-2) Monitor wykorzystania pamiêci 
+%description -l pl.UTF-8
+Motyw Fantastik dla superkaramby. WyÅ›wietlane informacje: 
+1) Monitor obciÄ…Å¼enia CPU 
+2) Monitor wykorzystania pamiÄ™ci 
 3) Monitor wykorzystania dysku 
-4) Monitor pobierania/wysy³ania interfejsu sieciowego 
+4) Monitor pobierania/wysyÅ‚ania interfejsu sieciowego 
 5) Monitor poczty pop3
 6) Data i uptime
 Ten motyw jest bazowanym na motywie zrobionym przez Chip2003
